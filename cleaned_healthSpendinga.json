@@ -1,0 +1,762 @@
+[
+    {
+        "Entity":"Afghanistan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.05
+    },
+    {
+        "Entity":"Albania",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.14
+    },
+    {
+        "Entity":"Algeria",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.82
+    },
+    {
+        "Entity":"Andorra",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.73
+    },
+    {
+        "Entity":"Angola",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.78
+    },
+    {
+        "Entity":"Antigua and Barbuda",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.54
+    },
+    {
+        "Entity":"Argentina",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.22
+    },
+    {
+        "Entity":"Armenia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.63
+    },
+    {
+        "Entity":"Australia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":19.32
+    },
+    {
+        "Entity":"Austria",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.89
+    },
+    {
+        "Entity":"Azerbaijan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.59
+    },
+    {
+        "Entity":"Bahamas",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.75
+    },
+    {
+        "Entity":"Bahrain",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.69
+    },
+    {
+        "Entity":"Bangladesh",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":3.08
+    },
+    {
+        "Entity":"Barbados",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.42
+    },
+    {
+        "Entity":"Belarus",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.15
+    },
+    {
+        "Entity":"Belgium",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.46
+    },
+    {
+        "Entity":"Belize",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.66
+    },
+    {
+        "Entity":"Benin",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":1.6
+    },
+    {
+        "Entity":"Bhutan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.61
+    },
+    {
+        "Entity":"Bolivia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":17.1
+    },
+    {
+        "Entity":"Bosnia and Herzegovina",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.42
+    },
+    {
+        "Entity":"Botswana",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.62
+    },
+    {
+        "Entity":"Brazil",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.94
+    },
+    {
+        "Entity":"Brunei",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.06
+    },
+    {
+        "Entity":"Bulgaria",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.92
+    },
+    {
+        "Entity":"Burkina Faso",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.84
+    },
+    {
+        "Entity":"Burundi",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.33
+    },
+    {
+        "Entity":"Cambodia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.99
+    },
+    {
+        "Entity":"Cameroon",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":2.86
+    },
+    {
+        "Entity":"Canada",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":19.61
+    },
+    {
+        "Entity":"Cape Verde",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.75
+    },
+    {
+        "Entity":"Central African Republic",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.42
+    },
+    {
+        "Entity":"Chad",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.87
+    },
+    {
+        "Entity":"Chile",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.52
+    },
+    {
+        "Entity":"China",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.91
+    },
+    {
+        "Entity":"Colombia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":19.01
+    },
+    {
+        "Entity":"Comoros",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.72
+    },
+    {
+        "Entity":"Congo",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.22
+    },
+    {
+        "Entity":"Costa Rica",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":25.37
+    },
+    {
+        "Entity":"Cote d'Ivoire",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.06
+    },
+    {
+        "Entity":"Croatia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.99
+    },
+    {
+        "Entity":"Cuba",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":21.48
+    },
+    {
+        "Entity":"Cyprus",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":18.37
+    },
+    {
+        "Entity":"Czechia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":17.58
+    },
+    {
+        "Entity":"Democratic Republic of Congo",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.34
+    },
+    {
+        "Entity":"Denmark",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":18.15
+    },
+    {
+        "Entity":"Djibouti",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.2
+    },
+    {
+        "Entity":"Dominica",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.24
+    },
+    {
+        "Entity":"Dominican Republic",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":17.74
+    },
+    {
+        "Entity":"East Timor",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.97
+    },
+    {
+        "Entity":"Ecuador",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.76
+    },
+    {
+        "Entity":"Egypt",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.8
+    },
+    {
+        "Entity":"El Salvador",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":20.0
+    },
+    {
+        "Entity":"Equatorial Guinea",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.36
+    },
+    {
+        "Entity":"Eritrea",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":2.35
+    },
+    {
+        "Entity":"Estonia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.76
+    },
+    {
+        "Entity":"Eswatini",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.3
+    },
+    {
+        "Entity":"Ethiopia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.1
+    },
+    {
+        "Entity":"Fiji",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.44
+    },
+    {
+        "Entity":"Finland",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.07
+    },
+    {
+        "Entity":"France",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.76
+    },
+    {
+        "Entity":"Gabon",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.59
+    },
+    {
+        "Entity":"Gambia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.54
+    },
+    {
+        "Entity":"Georgia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.23
+    },
+    {
+        "Entity":"Germany",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":19.95
+    },
+    {
+        "Entity":"Ghana",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.2
+    },
+    {
+        "Entity":"Greece",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.41
+    },
+    {
+        "Entity":"Grenada",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.99
+    },
+    {
+        "Entity":"Guatemala",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":17.41
+    },
+    {
+        "Entity":"Guinea",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.49
+    },
+    {
+        "Entity":"Guinea-Bissau",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.6
+    },
+    {
+        "Entity":"Guyana",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.85
+    },
+    {
+        "Entity":"Haiti",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":3.92
+    },
+    {
+        "Entity":"Honduras",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.09
+    },
+    {
+        "Entity":"Hungary",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.02
+    },
+    {
+        "Entity":"Iceland",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.37
+    },
+    {
+        "Entity":"India",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":3.69
+    },
+    {
+        "Entity":"Indonesia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.11
+    },
+    {
+        "Entity":"Iran",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":26.11
+    },
+    {
+        "Entity":"Iraq",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.99
+    },
+    {
+        "Entity":"Ireland",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":20.96
+    },
+    {
+        "Entity":"Israel",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.19
+    },
+    {
+        "Entity":"Italy",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.36
+    },
+    {
+        "Entity":"Jamaica",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.18
+    },
+    {
+        "Entity":"Japan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":21.45
+    },
+    {
+        "Entity":"Jordan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.91
+    },
+    {
+        "Entity":"Kazakhstan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.62
+    },
+    {
+        "Entity":"Kenya",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.29
+    },
+    {
+        "Entity":"Kiribati",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.97
+    },
+    {
+        "Entity":"Kuwait",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.92
+    },
+    {
+        "Entity":"Kyrgyzstan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.56
+    },
+    {
+        "Entity":"Laos",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.41
+    },
+    {
+        "Entity":"Latvia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.19
+    },
+    {
+        "Entity":"Lebanon",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.7
+    },
+    {
+        "Entity":"Lesotho",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.95
+    },
+    {
+        "Entity":"Liberia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":3.66
+    },
+    {
+        "Entity":"Libya",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":null
+    },
+    {
+        "Entity":"Lithuania",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.01
+    },
+    {
+        "Entity":"Luxembourg",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.48
+    },
+    {
+        "Entity":"Madagascar",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.27
+    },
+    {
+        "Entity":"Malawi",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.76
+    },
+    {
+        "Entity":"Malaysia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.11
+    },
+    {
+        "Entity":"Maldives",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":18.17
+    },
+    {
+        "Entity":"Mali",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.96
+    },
+    {
+        "Entity":"Malta",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.23
+    },
+    {
+        "Entity":"Marshall Islands",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.95
+    },
+    {
+        "Entity":"Mauritania",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.34
+    },
+    {
+        "Entity":"Mauritius",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.2
+    },
+    {
+        "Entity":"Mexico",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.03
+    },
+    {
+        "Entity":"Micronesia (country)",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":2.6
+    },
+    {
+        "Entity":"Moldova",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.62
+    },
+    {
+        "Entity":"Monaco",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.65
+    },
+    {
+        "Entity":"Mongolia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.63
+    },
+    {
+        "Entity":"Montenegro",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.4
+    },
+    {
+        "Entity":"Morocco",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.18
+    },
+    {
+        "Entity":"Mozambique",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.15
+    },
+    {
+        "Entity":"Myanmar",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.39
+    },
+    {
+        "Entity":"Namibia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.24
+    },
+    {
+        "Entity":"Nauru",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.14
+    },
+    {
+        "Entity":"Nepal",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.49
+    },
+    {
+        "Entity":"Netherlands",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.86
+    },
+    {
+        "Entity":"New Zealand",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":18.57
+    },
+    {
+        "Entity":"Nicaragua",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":20.09
+    },
+    {
+        "Entity":"Niger",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.75
+    },
+    {
+        "Entity":"Nigeria",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.06
+    },
+    {
+        "Entity":"North Macedonia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.0
+    },
+    {
+        "Entity":"Norway",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":17.57
+    },
+    {
+        "Entity":"Oman",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.54
+    },
+    {
+        "Entity":"Pakistan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.57
+    },
+    {
+        "Entity":"Palau",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.1
+    },
+    {
+        "Entity":"Panama",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":21.66
+    },
+    {
+        "Entity":"Papua New Guinea",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.33
+    },
+    {
+        "Entity":"Paraguay",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":18.01
+    },
+    {
+        "Entity":"Peru",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":16.94
+    },
+    {
+        "Entity":"Philippines",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.46
+    },
+    {
+        "Entity":"Poland",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.53
+    },
+    {
+        "Entity":"Portugal",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.72
+    },
+    {
+        "Entity":"Qatar",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.39
+    },
+    {
+        "Entity":"Romania",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.32
+    },
+    {
+        "Entity":"Russia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.12
+    },
+    {
+        "Entity":"Rwanda",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.47
+    },
+    {
+        "Entity":"Saint Kitts and Nevis",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.91
+    },
+    {
+        "Entity":"Saint Lucia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.68
+    },
+    {
+        "Entity":"Saint Vincent and the Grenadines",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.6
+    },
+    {
+        "Entity":"Samoa",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.75
+    },
+    {
+        "Entity":"San Marino",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":17.85
+    },
+    {
+        "Entity":"Sao Tome and Principe",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.14
+    },
+    {
+        "Entity":"Saudi Arabia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.4
+    },
+    {
+        "Entity":"Senegal",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.37
+    },
+    {
+        "Entity":"Serbia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.45
+    },
+    {
+        "Entity":"Seychelles",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.18
+    },
+    {
+        "Entity":"Sierra Leone",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":6.85
+    },
+    {
+        "Entity":"Singapore",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":20.81
+    },
+    {
+        "Entity":"Slovakia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.56
+    },
+    {
+        "Entity":"Slovenia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.01
+    },
+    {
+        "Entity":"Solomon Islands",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.54
+    },
+    {
+        "Entity":"South Africa",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.29
+    },
+    {
+        "Entity":"South Korea",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":14.83
+    },
+    {
+        "Entity":"South Sudan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":2.11
+    },
+    {
+        "Entity":"Spain",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":15.19
+    },
+    {
+        "Entity":"Sri Lanka",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.49
+    },
+    {
+        "Entity":"Sudan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.86
+    },
+    {
+        "Entity":"Suriname",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.02
+    },
+    {
+        "Entity":"Sweden",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":19.55
+    },
+    {
+        "Entity":"Switzerland",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.72
+    },
+    {
+        "Entity":"Syria",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":null
+    },
+    {
+        "Entity":"Tajikistan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.02
+    },
+    {
+        "Entity":"Tanzania",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.14
+    },
+    {
+        "Entity":"Thailand",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":13.47
+    },
+    {
+        "Entity":"Togo",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":2.56
+    },
+    {
+        "Entity":"Tonga",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":7.34
+    },
+    {
+        "Entity":"Trinidad and Tobago",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.07
+    },
+    {
+        "Entity":"Tunisia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.4
+    },
+    {
+        "Entity":"Turkey",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":11.53
+    },
+    {
+        "Entity":"Turkmenistan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.68
+    },
+    {
+        "Entity":"Tuvalu",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.2
+    },
+    {
+        "Entity":"Uganda",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":4.88
+    },
+    {
+        "Entity":"Ukraine",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":10.15
+    },
+    {
+        "Entity":"United Arab Emirates",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":12.89
+    },
+    {
+        "Entity":"United Kingdom",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":22.36
+    },
+    {
+        "Entity":"United States",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":21.41
+    },
+    {
+        "Entity":"Uruguay",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":22.42
+    },
+    {
+        "Entity":"Uzbekistan",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.9
+    },
+    {
+        "Entity":"Vanuatu",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":2.78
+    },
+    {
+        "Entity":"Venezuela",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.46
+    },
+    {
+        "Entity":"Vietnam",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":8.97
+    },
+    {
+        "Entity":"Yemen",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":null
+    },
+    {
+        "Entity":"Zambia",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":9.25
+    },
+    {
+        "Entity":"Zimbabwe",
+        "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)":5.21
+    }
+]
