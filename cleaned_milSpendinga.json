@@ -1,0 +1,650 @@
+[
+    {
+        "Entity":"Afghanistan",
+        "Military expenditure (% of government spending)":10.50266
+    },
+    {
+        "Entity":"Albania",
+        "Military expenditure (% of government spending)":5.619529
+    },
+    {
+        "Entity":"Algeria",
+        "Military expenditure (% of government spending)":19.33568
+    },
+    {
+        "Entity":"Angola",
+        "Military expenditure (% of government spending)":5.5281563
+    },
+    {
+        "Entity":"Argentina",
+        "Military expenditure (% of government spending)":1.2523152
+    },
+    {
+        "Entity":"Armenia",
+        "Military expenditure (% of government spending)":19.960655
+    },
+    {
+        "Entity":"Australia",
+        "Military expenditure (% of government spending)":5.0598474
+    },
+    {
+        "Entity":"Austria",
+        "Military expenditure (% of government spending)":1.6325772
+    },
+    {
+        "Entity":"Azerbaijan",
+        "Military expenditure (% of government spending)":14.706208
+    },
+    {
+        "Entity":"Bahrain",
+        "Military expenditure (% of government spending)":10.754444
+    },
+    {
+        "Entity":"Bangladesh",
+        "Military expenditure (% of government spending)":8.035255
+    },
+    {
+        "Entity":"Belarus",
+        "Military expenditure (% of government spending)":50.591312
+    },
+    {
+        "Entity":"Belgium",
+        "Military expenditure (% of government spending)":2.2165167
+    },
+    {
+        "Entity":"Belize",
+        "Military expenditure (% of government spending)":3.5842159
+    },
+    {
+        "Entity":"Benin",
+        "Military expenditure (% of government spending)":3.7539527
+    },
+    {
+        "Entity":"Bolivia",
+        "Military expenditure (% of government spending)":4.202807
+    },
+    {
+        "Entity":"Bosnia and Herzegovina",
+        "Military expenditure (% of government spending)":1.9310855
+    },
+    {
+        "Entity":"Botswana",
+        "Military expenditure (% of government spending)":7.8265004
+    },
+    {
+        "Entity":"Brazil",
+        "Military expenditure (% of government spending)":2.2368653
+    },
+    {
+        "Entity":"Brunei",
+        "Military expenditure (% of government spending)":10.191807
+    },
+    {
+        "Entity":"Bulgaria",
+        "Military expenditure (% of government spending)":5.019294
+    },
+    {
+        "Entity":"Burkina Faso",
+        "Military expenditure (% of government spending)":15.1051
+    },
+    {
+        "Entity":"Burundi",
+        "Military expenditure (% of government spending)":10.22963
+    },
+    {
+        "Entity":"Cambodia",
+        "Military expenditure (% of government spending)":7.7088223
+    },
+    {
+        "Entity":"Cameroon",
+        "Military expenditure (% of government spending)":5.625886
+    },
+    {
+        "Entity":"Canada",
+        "Military expenditure (% of government spending)":3.1236508
+    },
+    {
+        "Entity":"Cape Verde",
+        "Military expenditure (% of government spending)":1.7446456
+    },
+    {
+        "Entity":"Central African Republic",
+        "Military expenditure (% of government spending)":12.719933
+    },
+    {
+        "Entity":"Chad",
+        "Military expenditure (% of government spending)":15.340982
+    },
+    {
+        "Entity":"Chile",
+        "Military expenditure (% of government spending)":6.0607595
+    },
+    {
+        "Entity":"China",
+        "Military expenditure (% of government spending)":4.9738264
+    },
+    {
+        "Entity":"Colombia",
+        "Military expenditure (% of government spending)":8.309943
+    },
+    {
+        "Entity":"Congo",
+        "Military expenditure (% of government spending)":8.891158
+    },
+    {
+        "Entity":"Cote d'Ivoire",
+        "Military expenditure (% of government spending)":3.9706748
+    },
+    {
+        "Entity":"Croatia",
+        "Military expenditure (% of government spending)":3.8988407
+    },
+    {
+        "Entity":"Cyprus",
+        "Military expenditure (% of government spending)":4.6164
+    },
+    {
+        "Entity":"Czechia",
+        "Military expenditure (% of government spending)":3.300615
+    },
+    {
+        "Entity":"Democratic Republic of Congo",
+        "Military expenditure (% of government spending)":6.96315
+    },
+    {
+        "Entity":"Denmark",
+        "Military expenditure (% of government spending)":4.100017
+    },
+    {
+        "Entity":"Djibouti",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Dominican Republic",
+        "Military expenditure (% of government spending)":3.9152558
+    },
+    {
+        "Entity":"East Timor",
+        "Military expenditure (% of government spending)":3.2115965
+    },
+    {
+        "Entity":"Ecuador",
+        "Military expenditure (% of government spending)":6.062082
+    },
+    {
+        "Entity":"Egypt",
+        "Military expenditure (% of government spending)":4.147395
+    },
+    {
+        "Entity":"El Salvador",
+        "Military expenditure (% of government spending)":4.655721
+    },
+    {
+        "Entity":"Equatorial Guinea",
+        "Military expenditure (% of government spending)":7.5329437
+    },
+    {
+        "Entity":"Eritrea",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Estonia",
+        "Military expenditure (% of government spending)":6.7703853
+    },
+    {
+        "Entity":"Eswatini",
+        "Military expenditure (% of government spending)":4.724687
+    },
+    {
+        "Entity":"Ethiopia",
+        "Military expenditure (% of government spending)":7.5371175
+    },
+    {
+        "Entity":"Fiji",
+        "Military expenditure (% of government spending)":4.772214
+    },
+    {
+        "Entity":"Finland",
+        "Military expenditure (% of government spending)":4.440724
+    },
+    {
+        "Entity":"France",
+        "Military expenditure (% of government spending)":3.5668712
+    },
+    {
+        "Entity":"Gabon",
+        "Military expenditure (% of government spending)":7.2736025
+    },
+    {
+        "Entity":"Gambia",
+        "Military expenditure (% of government spending)":2.6410651
+    },
+    {
+        "Entity":"Georgia",
+        "Military expenditure (% of government spending)":5.5391197
+    },
+    {
+        "Entity":"Germany",
+        "Military expenditure (% of government spending)":3.081088
+    },
+    {
+        "Entity":"Ghana",
+        "Military expenditure (% of government spending)":1.9150306
+    },
+    {
+        "Entity":"Greece",
+        "Military expenditure (% of government spending)":6.56533
+    },
+    {
+        "Entity":"Guatemala",
+        "Military expenditure (% of government spending)":2.981787
+    },
+    {
+        "Entity":"Guinea",
+        "Military expenditure (% of government spending)":13.817006
+    },
+    {
+        "Entity":"Guinea-Bissau",
+        "Military expenditure (% of government spending)":6.407471
+    },
+    {
+        "Entity":"Guyana",
+        "Military expenditure (% of government spending)":2.330417
+    },
+    {
+        "Entity":"Haiti",
+        "Military expenditure (% of government spending)":0.6740394
+    },
+    {
+        "Entity":"Honduras",
+        "Military expenditure (% of government spending)":5.8594217
+    },
+    {
+        "Entity":"Hungary",
+        "Military expenditure (% of government spending)":4.4118857
+    },
+    {
+        "Entity":"India",
+        "Military expenditure (% of government spending)":8.14549
+    },
+    {
+        "Entity":"Indonesia",
+        "Military expenditure (% of government spending)":3.9197536
+    },
+    {
+        "Entity":"Iran",
+        "Military expenditure (% of government spending)":13.531165
+    },
+    {
+        "Entity":"Iraq",
+        "Military expenditure (% of government spending)":4.1501412
+    },
+    {
+        "Entity":"Ireland",
+        "Military expenditure (% of government spending)":1.0163602
+    },
+    {
+        "Entity":"Israel",
+        "Military expenditure (% of government spending)":14.590181
+    },
+    {
+        "Entity":"Italy",
+        "Military expenditure (% of government spending)":3.0434518
+    },
+    {
+        "Entity":"Jamaica",
+        "Military expenditure (% of government spending)":4.0575786
+    },
+    {
+        "Entity":"Japan",
+        "Military expenditure (% of government spending)":2.8216414
+    },
+    {
+        "Entity":"Jordan",
+        "Military expenditure (% of government spending)":14.488797
+    },
+    {
+        "Entity":"Kazakhstan",
+        "Military expenditure (% of government spending)":2.096282
+    },
+    {
+        "Entity":"Kenya",
+        "Military expenditure (% of government spending)":4.1143403
+    },
+    {
+        "Entity":"Kosovo",
+        "Military expenditure (% of government spending)":4.022088
+    },
+    {
+        "Entity":"Kuwait",
+        "Military expenditure (% of government spending)":9.448221
+    },
+    {
+        "Entity":"Kyrgyzstan",
+        "Military expenditure (% of government spending)":10.49312
+    },
+    {
+        "Entity":"Laos",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Latvia",
+        "Military expenditure (% of government spending)":5.631659
+    },
+    {
+        "Entity":"Lebanon",
+        "Military expenditure (% of government spending)":10.719608
+    },
+    {
+        "Entity":"Lesotho",
+        "Military expenditure (% of government spending)":2.7290077
+    },
+    {
+        "Entity":"Liberia",
+        "Military expenditure (% of government spending)":3.505
+    },
+    {
+        "Entity":"Libya",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Lithuania",
+        "Military expenditure (% of government spending)":6.928567
+    },
+    {
+        "Entity":"Luxembourg",
+        "Military expenditure (% of government spending)":1.6226673
+    },
+    {
+        "Entity":"Madagascar",
+        "Military expenditure (% of government spending)":3.4548116
+    },
+    {
+        "Entity":"Malawi",
+        "Military expenditure (% of government spending)":3.9581366
+    },
+    {
+        "Entity":"Malaysia",
+        "Military expenditure (% of government spending)":4.114012
+    },
+    {
+        "Entity":"Mali",
+        "Military expenditure (% of government spending)":14.18335
+    },
+    {
+        "Entity":"Malta",
+        "Military expenditure (% of government spending)":1.3772391
+    },
+    {
+        "Entity":"Mauritania",
+        "Military expenditure (% of government spending)":9.6081
+    },
+    {
+        "Entity":"Mauritius",
+        "Military expenditure (% of government spending)":0.524061
+    },
+    {
+        "Entity":"Mexico",
+        "Military expenditure (% of government spending)":2.3691616
+    },
+    {
+        "Entity":"Moldova",
+        "Military expenditure (% of government spending)":1.4045134
+    },
+    {
+        "Entity":"Mongolia",
+        "Military expenditure (% of government spending)":1.7310975
+    },
+    {
+        "Entity":"Montenegro",
+        "Military expenditure (% of government spending)":3.738977
+    },
+    {
+        "Entity":"Morocco",
+        "Military expenditure (% of government spending)":11.122039
+    },
+    {
+        "Entity":"Mozambique",
+        "Military expenditure (% of government spending)":5.6261353
+    },
+    {
+        "Entity":"Myanmar",
+        "Military expenditure (% of government spending)":20.681293
+    },
+    {
+        "Entity":"Namibia",
+        "Military expenditure (% of government spending)":7.4786844
+    },
+    {
+        "Entity":"Nepal",
+        "Military expenditure (% of government spending)":4.0769143
+    },
+    {
+        "Entity":"Netherlands",
+        "Military expenditure (% of government spending)":3.3884048
+    },
+    {
+        "Entity":"New Zealand",
+        "Military expenditure (% of government spending)":2.905702
+    },
+    {
+        "Entity":"Nicaragua",
+        "Military expenditure (% of government spending)":2.0169895
+    },
+    {
+        "Entity":"Niger",
+        "Military expenditure (% of government spending)":10.225349
+    },
+    {
+        "Entity":"Nigeria",
+        "Military expenditure (% of government spending)":5.5249004
+    },
+    {
+        "Entity":"North Macedonia",
+        "Military expenditure (% of government spending)":4.700672
+    },
+    {
+        "Entity":"Norway",
+        "Military expenditure (% of government spending)":4.0019226
+    },
+    {
+        "Entity":"Oman",
+        "Military expenditure (% of government spending)":20.657364
+    },
+    {
+        "Entity":"Pakistan",
+        "Military expenditure (% of government spending)":14.450606
+    },
+    {
+        "Entity":"Panama",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Papua New Guinea",
+        "Military expenditure (% of government spending)":1.4184881
+    },
+    {
+        "Entity":"Paraguay",
+        "Military expenditure (% of government spending)":3.7925835
+    },
+    {
+        "Entity":"Peru",
+        "Military expenditure (% of government spending)":4.917399
+    },
+    {
+        "Entity":"Philippines",
+        "Military expenditure (% of government spending)":5.024155
+    },
+    {
+        "Entity":"Poland",
+        "Military expenditure (% of government spending)":8.119156
+    },
+    {
+        "Entity":"Portugal",
+        "Military expenditure (% of government spending)":3.4422028
+    },
+    {
+        "Entity":"Qatar",
+        "Military expenditure (% of government spending)":26.88069
+    },
+    {
+        "Entity":"Romania",
+        "Military expenditure (% of government spending)":4.3681426
+    },
+    {
+        "Entity":"Russia",
+        "Military expenditure (% of government spending)":16.141409
+    },
+    {
+        "Entity":"Rwanda",
+        "Military expenditure (% of government spending)":4.5541635
+    },
+    {
+        "Entity":"Saudi Arabia",
+        "Military expenditure (% of government spending)":24.04452
+    },
+    {
+        "Entity":"Senegal",
+        "Military expenditure (% of government spending)":5.5036407
+    },
+    {
+        "Entity":"Serbia",
+        "Military expenditure (% of government spending)":6.4236217
+    },
+    {
+        "Entity":"Seychelles",
+        "Military expenditure (% of government spending)":4.430109
+    },
+    {
+        "Entity":"Sierra Leone",
+        "Military expenditure (% of government spending)":2.3463256
+    },
+    {
+        "Entity":"Singapore",
+        "Military expenditure (% of government spending)":18.02874
+    },
+    {
+        "Entity":"Slovakia",
+        "Military expenditure (% of government spending)":4.1883307
+    },
+    {
+        "Entity":"Slovenia",
+        "Military expenditure (% of government spending)":2.8299026
+    },
+    {
+        "Entity":"Somalia",
+        "Military expenditure (% of government spending)":19.788275
+    },
+    {
+        "Entity":"South Africa",
+        "Military expenditure (% of government spending)":2.2108955
+    },
+    {
+        "Entity":"South Korea",
+        "Military expenditure (% of government spending)":11.104791
+    },
+    {
+        "Entity":"South Sudan",
+        "Military expenditure (% of government spending)":8.636859
+    },
+    {
+        "Entity":"Spain",
+        "Military expenditure (% of government spending)":3.2064657
+    },
+    {
+        "Entity":"Sri Lanka",
+        "Military expenditure (% of government spending)":7.024815
+    },
+    {
+        "Entity":"Sudan",
+        "Military expenditure (% of government spending)":9.495771
+    },
+    {
+        "Entity":"Sweden",
+        "Military expenditure (% of government spending)":3.061278
+    },
+    {
+        "Entity":"Switzerland",
+        "Military expenditure (% of government spending)":2.202467
+    },
+    {
+        "Entity":"Syria",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Taiwan",
+        "Military expenditure (% of government spending)":13.639922
+    },
+    {
+        "Entity":"Tajikistan",
+        "Military expenditure (% of government spending)":3.7796986
+    },
+    {
+        "Entity":"Tanzania",
+        "Military expenditure (% of government spending)":6.0268044
+    },
+    {
+        "Entity":"Thailand",
+        "Military expenditure (% of government spending)":4.9163723
+    },
+    {
+        "Entity":"Togo",
+        "Military expenditure (% of government spending)":12.718074
+    },
+    {
+        "Entity":"Trinidad and Tobago",
+        "Military expenditure (% of government spending)":2.8212237
+    },
+    {
+        "Entity":"Tunisia",
+        "Military expenditure (% of government spending)":7.0458264
+    },
+    {
+        "Entity":"Turkmenistan",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Uganda",
+        "Military expenditure (% of government spending)":9.57629
+    },
+    {
+        "Entity":"Ukraine",
+        "Military expenditure (% of government spending)":58.17071
+    },
+    {
+        "Entity":"United Arab Emirates",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"United Kingdom",
+        "Military expenditure (% of government spending)":5.1523995
+    },
+    {
+        "Entity":"United States",
+        "Military expenditure (% of government spending)":9.055286
+    },
+    {
+        "Entity":"Uruguay",
+        "Military expenditure (% of government spending)":6.7203565
+    },
+    {
+        "Entity":"Uzbekistan",
+        "Military expenditure (% of government spending)":10.9764595
+    },
+    {
+        "Entity":"Vietnam",
+        "Military expenditure (% of government spending)":8.82091
+    },
+    {
+        "Entity":"Yemen",
+        "Military expenditure (% of government spending)":null
+    },
+    {
+        "Entity":"Zambia",
+        "Military expenditure (% of government spending)":4.691567
+    },
+    {
+        "Entity":"Zimbabwe",
+        "Military expenditure (% of government spending)":1.3805273
+    }
+]
