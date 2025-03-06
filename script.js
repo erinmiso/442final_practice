@@ -48,7 +48,6 @@ let selectedCountries = new Set();
 
 d3.json("world.json").then(data => {
     let countries = data.features;
-
     map.append("g")
         .attr("class", "countries")
         .selectAll("path")
@@ -56,12 +55,11 @@ d3.json("world.json").then(data => {
         .enter().append("path")
         .attr("class", d => "country_" + d.properties.name.replace(/ /g, "_"))
         .attr("d", path)
-        .attr("fill", "white")
-        .style('stroke', 'black')
+        .attr("fill", d => hasData(d.properties.name) ? "36454F" : "#ccc") // countries with data will be dark gray
+        .style('stroke', '#fff')
         .style('stroke-width', 0.3)
         .style("opacity", 0.8)
         .on("click", (event, d) => {
-            // maybe also give the user the option to deselect from a list
             let countryName = d.properties.name;
             toggleCountry(countryName);
         })
@@ -76,6 +74,15 @@ d3.json("world.json").then(data => {
             d3.select("#tooltip").style("visibility", "hidden");
         });
 });
+
+
+function hasData(country) {
+    return (
+        healthData.some(d => d.Entity === country) ||
+        militaryData.some(d => d.Entity === country) ||
+        educationData.some(d => d.Entity === country)
+    );
+}
 
 // Load health, military, and education data from JSON files
 let healthData, militaryData, educationData;
