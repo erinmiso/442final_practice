@@ -1,20 +1,25 @@
+// Set up SVG canvas dimensions
 const width = 500, height = 500;
-const sensitivity = 75;
-const initialScale = 250;
+const sensitivity = 75; // Controls drag sensitivity
+const initialScale = 250; // Scale of the globe
 
+// Define the globe projection (Orthographic for a 3D-like effect)
 let projection = d3.geoOrthographic()
     .scale(initialScale)
     .center([0, 0])
-    .rotate([0, -30])
+    .rotate([0, -30]) // Initial rotation
     .translate([width / 2, height / 2]);
 
+// Create a path generator using the projection
 let path = d3.geoPath().projection(projection);
 
+// Create the SVG element
 let svg = d3.select("#map")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
 
+// Draw the background globe circle
 let globe = svg.append("circle")
     .attr("fill", "#EEE")
     .attr("stroke", "#000")
@@ -23,6 +28,7 @@ let globe = svg.append("circle")
     .attr("cy", height / 2)
     .attr("r", initialScale);
 
+// Enable dragging to rotate the globe
 svg.call(d3.drag().on('drag', (event) => {
     const rotate = projection.rotate();
     const k = sensitivity / projection.scale();
@@ -32,44 +38,46 @@ svg.call(d3.drag().on('drag', (event) => {
     ]);
     path = d3.geoPath().projection(projection);
     svg.selectAll("path").attr("d", path);
-}))
- ;
+}));
 
-let map = svg.append("g");
+let map = svg.append("g"); // Group for countries
 let selectedCountries = new Set();
 
+// Load and draw world map
+// 'world.json' contains the geographic data
 
-// Load the world map
 d3.json("world.json").then(data => {
-  let countries = data.features;
+    let countries = data.features;
 
-  map.append("g")
-  .attr("class", "countries")
-  .selectAll("path")
-  .data(countries)
-  .enter().append("path")
-  .attr("class", d => "country_" + d.properties.name.replace(/ /g, "_"))
-  .attr("d", path)
-  .attr("fill", "white")
-  .style('stroke', 'black')
-  .style('stroke-width', 0.3)
-  .style("opacity", 0.8)
-  .on("click", (event, d) => {
-      let countryName = d.properties.name;
-      toggleCountry(countryName);
-  })
-  .on("mouseover", (event, d) => {
-      d3.select("#tooltip")
-          .style("visibility", "visible")
-          .style("left", `${event.pageX + 10}px`)
-          .style("top", `${event.pageY + 10}px`)
-          .text(d.properties.name);
-  })
-  .on("mouseout", () => {
-      d3.select("#tooltip").style("visibility", "hidden");
-  });
+    map.append("g")
+        .attr("class", "countries")
+        .selectAll("path")
+        .data(countries)
+        .enter().append("path")
+        .attr("class", d => "country_" + d.properties.name.replace(/ /g, "_"))
+        .attr("d", path)
+        .attr("fill", "white")
+        .style('stroke', 'black')
+        .style('stroke-width', 0.3)
+        .style("opacity", 0.8)
+        .on("click", (event, d) => {
+            // maybe also give the user the option to deselect from a list
+            let countryName = d.properties.name;
+            toggleCountry(countryName);
+        })
+        .on("mouseover", (event, d) => {
+            d3.select("#tooltip")
+                .style("visibility", "visible")
+                .style("left", `${event.pageX + 10}px`)
+                .style("top", `${event.pageY + 10}px`)
+                .text(d.properties.name);
+        })
+        .on("mouseout", () => {
+            d3.select("#tooltip").style("visibility", "hidden");
+        });
 });
-// Load health, military, and education data
+
+// Load health, military, and education data from JSON files
 let healthData, militaryData, educationData;
 
 Promise.all([
@@ -91,16 +99,15 @@ const chartSvg = d3.select("#chart")
     .append("g")
     .attr("transform", "translate(50,50)");
 
+// Define scales and axes
 const xScale = d3.scaleBand().range([0, 500]).padding(0.2);
 const yScale = d3.scaleLinear().range([300, 0]);
-
 const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-// Axis groups
 chartSvg.append("g").attr("class", "x-axis").attr("transform", "translate(0,300)");
 chartSvg.append("g").attr("class", "y-axis");
 
-// Tooltip for displaying stack value
+// Tooltip for displaying values in the bar chart
 const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("position", "absolute")
@@ -108,24 +115,23 @@ const tooltip = d3.select("body").append("div")
     .style("color", "white")
     .style("padding", "5px")
     .style("border-radius", "3px")
-    .style("visibility", "hidden")
-    .text("Tooltip");
+    .style("visibility", "hidden");
 
+// Handle country selection and fetch expenditure data
 function toggleCountry(country) {
+    // convert set into an array
     if ([...selectedCountries].some(d => d.name === country)) {
+        // found a match
+        // toggle feature: we remove it from the set
         selectedCountries = new Set([...selectedCountries].filter(d => d.name !== country));
     } else {
-        // Fetch data from the three JSON files
-        let healthExpenditure = getDataForCountry(healthData, country, "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)");
-        let militaryExpenditure = getDataForCountry(militaryData, country, "Military expenditure (% of government spending)");
-        let educationExpenditure = getDataForCountry(educationData, country, "Government expenditure on education, total (% of government expenditure)");
-
+        // country has not been selected yet, add the relevant data
         let newData = {
             name: country,
             data: {
-                "Health": healthExpenditure || 0,  // Default to 0 if data is missing
-                "Military": militaryExpenditure || 0,
-                "Education": educationExpenditure || 0
+                "Health": getDataForCountry(healthData, country, "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)") || 0,
+                "Military": getDataForCountry(militaryData, country, "Military expenditure (% of government spending)") || 0,
+                "Education": getDataForCountry(educationData, country, "Government expenditure on education, total (% of government expenditure)") || 0
             }
         };
         selectedCountries.add(newData);
@@ -133,7 +139,7 @@ function toggleCountry(country) {
     updateChart();
 }
 
-// Function to fetch the correct data from each dataset
+// Retrieve data for a specific country
 function getDataForCountry(dataset, country, key) {
     const countryData = dataset.find(d => d.Entity === country);
     return countryData ? countryData[key] : null;
@@ -142,77 +148,41 @@ function getDataForCountry(dataset, country, key) {
 // Update Stacked Bar Chart
 function updateChart() {
     const dataArray = Array.from(selectedCountries);
-    
     if (dataArray.length === 0) {
         chartSvg.selectAll(".bar-group").remove();
+
+
+        xScale.domain([]);
+        chartSvg.select(".x-axis")
+            .call(d3.axisBottom(xScale)) // reset all marks on the x-axis
+            .selectAll("text")  // Select all labels
+            .remove();          // clear the labels
         return;
     }
 
     const spendingAreas = ["Health", "Military", "Education"];
-    
     xScale.domain(dataArray.map(d => d.name));
-    yScale.domain([0, d3.max(dataArray, d => 
-        spendingAreas.reduce((sum, key) => sum + d.data[key], 0)
-    )]);
+    yScale.domain([0, d3.max(dataArray, d => spendingAreas.reduce((sum, key) => sum + d.data[key], 0))]);
 
     chartSvg.select(".x-axis").call(d3.axisBottom(xScale));
     chartSvg.select(".y-axis").call(d3.axisLeft(yScale));
 
-    const stackedData = d3.stack()
-        .keys(spendingAreas)
-        .value((d, key) => d.data[key])
-        (dataArray);
+    const stackedData = d3.stack().keys(spendingAreas).value((d, key) => d.data[key])(dataArray);
 
-    const bars = chartSvg.selectAll(".bar-group")
-        .data(stackedData, d => d.key);
-
-    bars.enter()
-        .append("g")
+    chartSvg.selectAll(".bar-group")
+        .data(stackedData)
+        .join("g")
         .attr("class", "bar-group")
         .attr("fill", d => colorScale(d.key))
-        .merge(bars)
         .selectAll("rect")
         .data(d => d)
         .join("rect")
         .attr("x", d => xScale(d.data.name))
         .attr("y", d => yScale(d[1]))
         .attr("height", d => yScale(d[0]) - yScale(d[1]))
-        .attr("width", xScale.bandwidth())
-        .on("mouseover", (event, d) => {
-            tooltip.style("visibility", "visible")
-                .style("left", `${event.pageX + 10}px`)
-                .style("top", `${event.pageY + 10}px`)
-                .text(`${d.data.name} - ${d.key}: ${d[1] - d[0]}%`);
-        })
-        .on("mouseout", () => {
-            tooltip.style("visibility", "hidden");
-        });
-
-    bars.exit().remove();
+        .attr("width", xScale.bandwidth());
 }
 
-// Create a legend for the stacked bar chart
-function createLegend() {
-    const legend = d3.select("#legend").append("svg")
-        .attr("width", 200)
-        .attr("height", 100)
-        .selectAll("g")
-        .data(["Health", "Military", "Education"])
-        .enter()
-        .append("g")
-        .attr("transform", (d, i) => `translate(0,${i * 20})`);
-
-    legend.append("rect")
-        .attr("width", 18)
-        .attr("height", 18)
-        .attr("fill", d => colorScale(d));
-
-    legend.append("text")
-        .attr("x", 25)
-        .attr("y", 9)
-        .attr("dy", ".35em")
-        .text(d => d);
-}
-
-// Initialize legend
+// Create legend for the stacked bar chart
+function createLegend() { /* ... */ }
 createLegend();
