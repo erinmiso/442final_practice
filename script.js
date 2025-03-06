@@ -122,7 +122,10 @@ const tooltip = d3.select("body").append("div")
     .style("color", "white")
     .style("padding", "5px")
     .style("border-radius", "3px")
-    .style("visibility", "hidden");
+    .style("visibility", "hidden")
+    .text("Tooltip");
+
+
 
 // Handle country selection and fetch expenditure data
 function toggleCountry(country) {
@@ -176,20 +179,57 @@ function updateChart() {
 
     const stackedData = d3.stack().keys(spendingAreas).value((d, key) => d.data[key])(dataArray);
 
-    chartSvg.selectAll(".bar-group")
-        .data(stackedData)
-        .join("g")
-        .attr("class", "bar-group")
-        .attr("fill", d => colorScale(d.key))
-        .selectAll("rect")
-        .data(d => d)
-        .join("rect")
-        .attr("x", d => xScale(d.data.name))
-        .attr("y", d => yScale(d[1]))
-        .attr("height", d => yScale(d[0]) - yScale(d[1]))
-        .attr("width", xScale.bandwidth());
+    const bars = chartSvg.selectAll(".bar-group")
+    .data(stackedData, d => d.key);
+
+bars.enter()
+    .append("g")
+    .attr("class", "bar-group")
+    .attr("fill", d => colorScale(d.key))
+    .merge(bars)
+    .selectAll("rect")
+    .data(d => d)
+    .join("rect")
+    .attr("x", d => xScale(d.data.name))
+    .attr("y", d => yScale(d[1]))
+    .attr("height", d => yScale(d[0]) - yScale(d[1]))
+    .attr("width", xScale.bandwidth())
+    .on("mouseover", (event, d) => {
+        tooltip.style("visibility", "visible")
+            .style("left", `${event.pageX + 10}px`)
+            .style("top", `${event.pageY + 10}px`)
+            .text(` ${d[1] - d[0]}%`);
+    })
+    .on("mouseout", () => {
+        tooltip.style("visibility", "hidden");
+    });
+
+bars.exit().remove();
+
 }
 
-// Create legend for the stacked bar chart
-function createLegend() { /* ... */ }
+// Create a legend for the stacked bar chart
+function createLegend() {
+    const legend = d3.select("#legend").append("svg")
+        .attr("width", 200)
+        .attr("height", 100)
+        .selectAll("g")
+        .data(["Health", "Military", "Education"])
+        .enter()
+        .append("g")
+        .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+    legend.append("rect")
+        .attr("width", 18)
+        .attr("height", 18)
+        .attr("fill", d => colorScale(d));
+
+    legend.append("text")
+        .attr("x", 25)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .text(d => d);
+}
+
+// Initialize legend
 createLegend();
