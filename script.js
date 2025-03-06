@@ -6,7 +6,6 @@ const initialScale = 250; // Scale of the globe
 // Define the globe projection (Orthographic for a 3D-like effect)
 let projection = d3.geoOrthographic()
     .scale(initialScale)
-    .center([0, 0])
     .rotate([0, -30]) // Initial rotation
     .translate([width / 2, height / 2]);
 
@@ -77,11 +76,19 @@ d3.json("world.json").then(data => {
 
 
 function hasData(country) {
-    return (
-        healthData.some(d => d.Entity === country) ||
-        militaryData.some(d => d.Entity === country) ||
-        educationData.some(d => d.Entity === country)
-    );
+    if (!healthData || !militaryData || !educationData) {
+        console.error("Data is not loaded yet.");
+        return false;
+    }
+
+    let countryData = {
+        "Health": getDataForCountry(healthData, country, "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)") || 0,
+        "Military": getDataForCountry(militaryData, country, "Military expenditure (% of government spending)") || 0,
+        "Education": getDataForCountry(educationData, country, "Government expenditure on education, total (% of government expenditure)") || 0
+    };
+
+    // Check if at least one value is non-zero
+    return (countryData.Health && countryData.Military && countryData.Education) ? countryData : false;
 }
 
 // Load health, military, and education data from JSON files
@@ -129,24 +136,18 @@ const tooltip = d3.select("body").append("div")
 
 // Handle country selection and fetch expenditure data
 function toggleCountry(country) {
-    // convert set into an array
     if ([...selectedCountries].some(d => d.name === country)) {
-        // found a match
-        // toggle feature: we remove it from the set
         selectedCountries = new Set([...selectedCountries].filter(d => d.name !== country));
-    } else {
-        // country has not been selected yet, add the relevant data
-        let newData = {
-            name: country,
-            data: {
-                "Health": getDataForCountry(healthData, country, "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)") || 0,
-                "Military": getDataForCountry(militaryData, country, "Military expenditure (% of government spending)") || 0,
-                "Education": getDataForCountry(educationData, country, "Government expenditure on education, total (% of government expenditure)") || 0
-            }
-        };
-        selectedCountries.add(newData);
+        updateChart();
+    } else if (hasData(country)) { // TODO: label does not appear if no valid data
+        let countryData = hasData(country);  // Get data if valid, otherwise null
+        if (countryData) {
+            selectedCountries.add({ name: country, data: countryData });
+            updateChart();
+        } else {
+            console.warn(`No valid data for ${country}.`);
+        }
     }
-    updateChart();
 }
 
 // Retrieve data for a specific country
@@ -182,7 +183,7 @@ function updateChart() {
     const bars = chartSvg.selectAll(".bar-group")
     .data(stackedData, d => d.key);
 
-bars.enter()
+    bars.enter()
     .append("g")
     .attr("class", "bar-group")
     .attr("fill", d => colorScale(d.key))
@@ -204,7 +205,7 @@ bars.enter()
         tooltip.style("visibility", "hidden");
     });
 
-bars.exit().remove();
+    bars.exit().remove();
 
 }
 
